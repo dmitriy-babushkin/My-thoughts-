@@ -1,0 +1,76 @@
+body, #postButton {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#userInput, .postText, .postTime, #authButtons {
+    font-family: 'Merriweather', sans-serif;
+}
+
+#forum {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#userInput {
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#postButton {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #343a40;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+}
+
+#postButton:hover {
+    background-color: #7e8383;
+}
+
+.postContainer {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.postTime {
+    font-size: 0.8em;
+    color: grey;
+    margin-bottom: 5px;
+}
+
+.postText {
+    margin-bottom: 10px;
+}
+
+.deleteButton {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f44336; /* Red */
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+    border: none;
+    opacity: 0.6;
+}
+
+.deleteButton:hover {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+}
